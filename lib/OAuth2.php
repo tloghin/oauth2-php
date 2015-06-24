@@ -993,6 +993,7 @@ class OAuth2
         return array(
             'scope' => $token->getScope(),
             'data' => $token->getData(),
+			'issue_refresh_token' => false,
         );
     }
 
